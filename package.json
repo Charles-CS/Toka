@@ -1,6 +1,14 @@
 {
   "name": "toka-root",
   "version": "1.0.0",
+  "author": "Charles-CS <charlesplaton263@gmail.com>",
+  "contributors": [
+    {
+      "name": "Charles-CS",
+      "email": "charlesplaton263@gmail.com",
+      "url": "https://github.com/Charles-CS"
+    }
+  ],
   "private": true,
   "scripts": {
     "start": "npm start --prefix toka-trial",

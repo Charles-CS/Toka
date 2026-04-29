@@ -58,5 +58,13 @@
     "react-test-renderer": "19.1.0",
     "typescript": "~5.9.2"
   },
+  "author": "Charles-CS <charlesplaton263@gmail.com>",
+  "contributors": [
+    {
+      "name": "Charles-CS",
+      "email": "charlesplaton263@gmail.com",
+      "url": "https://github.com/Charles-CS"
+    }
+  ],
   "private": true
 }
