@@ -1,0 +1,13 @@
+{
+  "name": "toka-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm start --prefix toka-trial",
+    "dev": "npm start --prefix toka-trial",
+    "android": "npm run android --prefix toka-trial",
+    "ios": "npm run ios --prefix toka-trial",
+    "web": "npm run web --prefix toka-trial",
+    "test": "npm test --prefix toka-trial"
+  }
+}
