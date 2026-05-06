@@ -10,10 +10,6 @@
     }
   ],
   "private": true,
-  "workspaces": [
-    "toka-trial",
-    "toka-trial/web"
-  ],
   "scripts": {
     "build": "npm run build --prefix toka-trial/web",
     "start": "npm start --prefix toka-trial",
