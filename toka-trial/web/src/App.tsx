@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Target, Shield, Brain, CheckCircle, ArrowRight,
+  Target, Brain, CheckCircle, ArrowRight,
   Users, Briefcase, Smartphone, Database, Globe, DollarSign,
   Activity, XCircle, Megaphone, Rocket, PieChart, Code, Award,
-  Play, X, Calendar, MessageSquareQuote, ChevronLeft, ChevronRight, Menu, Lock
+  Play, X, Calendar, ChevronLeft, ChevronRight, Menu, Lock
 } from 'lucide-react';
 import { motion, AnimatePresence, useInView, useScroll, useTransform, type Variants } from 'framer-motion';
 import './App.css';
