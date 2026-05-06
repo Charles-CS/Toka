@@ -302,7 +302,7 @@ const InteractiveChore = () => {
             drag="x"
             dragConstraints={{ left: 0, right: 200 }}
             dragElastic={0}
-            onDrag={(_, info) => {
+            onDrag={(_: any, info: any) => {
               if (info.offset.x >= 180) {
                 setComplete(true);
               }
@@ -665,7 +665,7 @@ function App() {
               <motion.div
                 key={coin.id}
                 className="tokash-coin"
-                onClick={(e) => handleCollect(e, coin.id)}
+                onClick={(e: React.MouseEvent) => handleCollect(e, coin.id)}
                 initial={{
                   left: coin.x + "%",
                   top: "110%",
@@ -1298,7 +1298,7 @@ function App() {
               exit={{ scale: 0.8, y: 50 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
               className="modal-content"
-              onClick={e => e.stopPropagation()}
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
               <button className="modal-close" onClick={() => setIsModalOpen(false)}>
                 <X size={24} />
